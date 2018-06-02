@@ -7,7 +7,7 @@ import avatar from './avatar.png'
 const App = props => (
   <div className="hero-container">
     <img src={avatar} />
-    <p>Heroes Never Die</p>
+    <p>Heroes May Die</p>
 
     <small className="hero-source">
       <a href="https://www.iconfinder.com/icons/1380745/comic_hero_superhero_superman_icon">
