@@ -1,11 +1,12 @@
-import React from 'react'
-import { render } from 'react-dom'
+import React from 'react';
+import { render } from 'react-dom';
 
-import './index.css'
-import avatar from './avatar.png'
+import './index.css';
+import avatar from './avatar.png';
 
-const App = props => (
+const App = () => (
   <div className="hero-container">
+    {/* eslint-disable-next-line */}
     <img src={avatar} />
     <p>Heroes May Die</p>
 
@@ -15,9 +16,9 @@ const App = props => (
       </a>
     </small>
   </div>
-)
+);
 
 render(
-	<App />,
-	document.getElementById('root')
-)
+  <App />,
+  document.getElementById('root'),
+);
